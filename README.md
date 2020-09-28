@@ -25,7 +25,7 @@ void callback(int &a, int b)
 
 int main()
 {
-  microohooks::hook(&add, &callback);
+  microhooks::hook(&add, &callback);
   return 0;
 }
 ```
